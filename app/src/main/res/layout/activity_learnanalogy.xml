@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnanalogy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANALOGY"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="         A comparison between one thing and another, typically for the purpose of explanation or clarification."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Types of Analogies :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="• Opposites Analogies\n• Object and Classification Analogies\n• Object and Related Object Analogies\n• Object and Group Analogies\n• Degrees of a Characteristic Analogies\n• Cause and Effect Analogies\n• Effort and Result Analogies\n• Problem and Solution Analogies\n• Verb Tenses Analogies\n• Performer and action Analogies\n• Object and part of the whole Analogies\n• Object and Function Analogies\n• Object and Location Analogies\n• Things That Go Together Analogies\n• Rhyme Analogies"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

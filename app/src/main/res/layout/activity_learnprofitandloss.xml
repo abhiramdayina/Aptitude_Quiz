@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnprofitandloss">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROFIT AND LOSS"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMPORTANT FACTS"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost Price :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                The price at which an article is purchased, is called its Cost Price, abbreviated as C.P."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selling Price :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                The price at which an article is sold, is called its Selling Price, abbreviated as S.P."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profit or Gain :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                If S.P is grater than C.P., the seller is said to have a profit or gain."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loss :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                If S.P. is greater than C.P the seller is said to have incurred a loss."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMULAE"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="• Gain = (S.P.) - (C.P.)\n• Loss = (C.P.) - (S.P.)\n• Gain % = (Gain / CP) * 100\n• Loss % = (Loss / CP) * 100\n• SP = [(100 + Gain%) / 100] * CP\n• SP = [(100 – Loss %) / 100]*CP\n• CP = [100 / (100 + Gain%)] * SP\n• CP = [100 / (100 – Loss%)] * SP"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

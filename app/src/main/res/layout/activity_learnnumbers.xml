@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnnumbers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NUMBERS"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="In Hindu- Arabic system, we have ten digits, namely 0,1,2,3,4,5,6,7,8,9 called zero, one, two,three,four,five,six,seven,eight,nine respectively.\n         A number is denoted by a group of digits, called numeral."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPES OF NUMBERS"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natural Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                Counting numbers are called natural numbers. Thus 1, 2, 3, 4, 5,....etc. are all natural numbers."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whole Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                All counting numbers and 0 form the set of Whole Numbers. Thus 0, 1, 2, 3, 4, 5.....etc are Whole Numbers.\nClearly, every natural number is a whole number and 0 is a whole number which is not a natural number."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                All counting numbers, zero and negative of counting numbers from the set of integers. Thus, ....., -3, -2, -1, 0, 1, 2, 3, .... are all integers.\nSet of positive integers ={1, 2, 3, 4, 5, 6, ....}\nSet of negative integers ={-1, -2, -3, -4,.....}\nSet of all non-negative integers ={0, 1, 2, 3, 4,...}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Even Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                A counting number divisible by 2 is called an even number. Thus 0, 2, 4, 6, 8, 10, 12,....etc. are all even numbers."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odd Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                A counting number not divisible by 2 is called an odd number.Thus 1, 3, 5, 7, 9, 11, 13,....etc. are all odd numbers."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prime Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                A counting number is called a prime number if it has exactly two factors, namely itself and 1.\n Ex: All prime numbers less than 100 are:\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Composite Numbers :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                The natural numbers which are not prime, are called composite numbers."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Co Primes :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                Two natural numbers a and b are said to be co-prime if their HCF is 1.\n Ex : (2, 3), (4, 5), (7, 9), (8, 11) etc.are pairs of co-primes."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMULAE"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="8dp"
+            android:text="a) (1 + 2 + 3+...+n) = (1/2)n(n+1)\nb) (1² + 2² + 3²+...n²) = (1\6)n(n+1)(2n+1)\nc) (1³ + 2³ + 3³+..+n³) = (1/4)n²(n+1)²\n\n"/>
+
+    </LinearLayout>
+
+</ScrollView>

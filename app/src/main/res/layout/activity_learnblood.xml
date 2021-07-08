@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnblood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLOOD RELATIONS"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maternal Relations :"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                Relations on mother's side are called maternal relations."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paternal Relations :"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="               Relations on father's side are called paternal relations. "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="5dp"
+            android:text="• Mother's sister - Maternal aunt\n• Father's sister - Paternal aunt\n• Son of mother or father - Brother\n• Daughter of mother or father  - Sister\n• Son of brother or sister - Nephew\n• Daughter of brother or sister - Niece\n• Wife of brother - Sister-in-law\n• Husband of daughter - Son-in-law\n• Wife of son - Daughter-in-law\n• Sister of wife or husband - Sister-in-law\n• Brother of wife on husband - Brother-in-law"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="5dp"
+            android:text="• Father of father - Paternal Grandfather\n• Father of mother - Maternal Grandfather\n• Mother of father - Paternal Grandmother\n• Mother of mother - Maternal Grandmother\n• Brother of Father - Paternal uncle\n• Brother of mother - Maternal uncle\n• Son of father's brother - Cousin\n• Son of father's sister - Cousin\n• Son of mother's brother - Cousin\n• Son of mother's sister - Cousin\n• Son of maternal grandfather - Maternal uncle\n• The only daughter of maternal grandfather - Mother\n• The only son of grandfather - Father\n• Mother of wife or husband - Mother-in-law\n• Father of wife or husband - Father-in-law\n• The only daughter of father in law - Wife"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="5dp"
+            android:text="• Husband of sister - Brother-in-law\n• Son of sister or brother - Nephew\n• Daughter of sister and brother - Niece\n• Son of daughter or son in law - Grand son\n• Daughter of daughter or son in law - Grand daughter\n• Son of son or daughter in law - Grand son\n• Daughter of son or daughter in law - Grand daughter\n• Only daughter in law of grandfather - Mother\n• Husband of daughter in law - Son\n• Grandson's or grand daughter's daughter - Grand Grand daughter\n• Grandson's or grand daughter's son - Great Grand son"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

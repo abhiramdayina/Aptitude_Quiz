@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnprobability">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROBABILITY"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiment :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                An Experiment which can p[roduce some well-defined outcomes is called an Experiment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Random Experiment :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                An Experiment in which all possible outcomes are known and the exact output can be predicted in advance, is called a Random Experiment."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Examples for Performing a Random Experiment :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="1. Rolling an unbiased dice.\n2. Tossing a fair coin.\n3. Drawing a card form a pack of well-shuffled cards.\n4. Picking up a ball of certain colour from a bag containing ball of different colours."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="1. When we throw a coin. Then either a Head (H) or a Tail (T) appears.\n2. A dice is a solid cube, having six faces, marked 1, 2, 3, 4, 5, 6 respectively. When we throw a die, the outcome is the number that appear on its upper face.\n3. A pack of cards has 52 cards "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:text="> It has 13 cards of each suit, namely Spades,Clubs, hearts and Diamonds.\n> Cards of Spades and Clubs are Black cards.\n> Cards of Hearts and Diamonds are Red cards.\n> There are four honours of each suit.\n> There are Aces, Kings, Queens and Jacks.\n> These are called face cards."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Space :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                When we perform an experiment, then the  set S of all possibles outcomes is called the Sample Space."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Examples of Samples Space :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:text="1. In tossing a coin, S = {H , T}.\n2. If two coins are tossed, then S = {HH, HT, TH, TT}.\n3. In rolling a dice, we have, S = {1, 2, 3, 4, 5, 6}."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="          Any subset of a sample space is called an Event.\n"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

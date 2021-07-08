@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learnpartnership">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARTNERSHIP"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARTNERSHIP : "
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                When two or more than two persons run a business jointly, they are called PARTNERS. and the deal is known as PARTNERSHIP."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratio of Division of Gains :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                When investments of all the partners are for the same time, the gain or loss is distributed among the partners in the ratios of their investments. Suppose A and B invest Rs. x and Rs. y respectively for a year in a business, then at the end of the year :\n(A's share of profit) : (B's share of profit) = x : y."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                When investments are for different time periods, then equivalent capitals are calculated for a unit of time by taking (capital x number of unit of time). Now, gain or loss  is divided in the ratio of these capitals. Suppose A invest Rs. x for p months and B invests Rs. y for q months, then \n(A's share of profit) : (B's share of profit) = xp : yq"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Working and Sleeping partners :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                A partner who manages the business is known as a WORKING PARTNER and the one who simply invest the money is a SLEEPING PARTNER"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

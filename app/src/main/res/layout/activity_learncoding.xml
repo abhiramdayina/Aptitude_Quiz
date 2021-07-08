@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learncoding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CODING AND DECODING"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Various types of Coding and Decoding"
+            android:textColor="#1565c0"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Letter Coding\n• Substitution\n• Mixed Letter Coding\n• Mixed Number Coding"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Letter Coding :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                In this type, the real alphabets in a word are replaced by certain other alphabets according to a specific rule to form its code. The candidate is required to detect the common rule and answer the questions accordingly."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substitution Coding :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                In this section, object names are substituted with different object names. We should carefully trace the substitution and answer the given question."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixed Letter Coding :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                In Mixed letter coding type of questions, three or four complete messages are given in the coded language and the code for a particular word is asked. To analyze such codes, any two messages bearing a common word are picked up. The common code word will mean that word. Proceeding similarly by picking up all possible combinations of two, the entire message can be analyzed."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixed Number Coding :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                In this type of questions, a few groups of numbers each coding a certain short message, are given. Through a comparison of the given coded messages, taking two at a time, the candidate is required to find the number code for each word and then formulate the code for the message given.\n"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

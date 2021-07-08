@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1565c6"
+
+    android:focusable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="false"
+    android:scrollbarFadeDuration="10"
+
+    tools:context=".learn">
+
+   <LinearLayout
+       android:id="@+id/linearLayout"
+       android:focusableInTouchMode="true"
+       android:focusable="true"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:layout_marginTop="0dp"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_gravity="center_horizontal">
+
+           <TextView
+               android:text="LEARN"
+               android:textSize="32dp"
+               android:textStyle="bold"
+               android:textColor="#ffffff"
+               android:layout_marginTop="30dp"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+       </RelativeLayout>
+
+       <androidx.cardview.widget.CardView
+           android:layout_marginTop="30dp"
+           android:id="@+id/learnnumber"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/numbers"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Numbers"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnaverages"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/averages"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Averages"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnpartner"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/partnership" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Partnership"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnages"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/ages" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Ages"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnpercent"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/percentages" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Percentages"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:backgroundTint="#ffffff"
+           android:id="@+id/learnratios"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/ratiosandproportions" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Ratios and Proportions"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learndecimals"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/decimals" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Decimals"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnprobability"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_margin="8dp"
+           android:padding="12dp"
+           app:cardCornerRadius="10dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:src="@drawable/probability" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Probability"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold" />
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnroots"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/roots"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Roots"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learncoding"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/codinganddecoding"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Coding and Decoding"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnrelations"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/bloodrelations"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Blood Relations"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learncalendar"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/calendar"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Calendar"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learndirections"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/directions"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Directions"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnanalogy"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/analogy"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Analogy"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnclocks"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/clocks"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Clocks"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learntrain"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/trains"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Problems on Trains"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learnprofit"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/profitandloss"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Profit and Loss"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/learntimenwork"
+           android:backgroundTint="#ffffff"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:cardCornerRadius="10dp"
+           android:padding="12dp"
+           android:layout_margin="8dp">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/timeandwork"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end"
+               android:layout_marginTop="15dp"
+               android:layout_marginRight="30dp"
+               android:text="Time and Work"
+               android:textColor="#1565c5"
+               android:textSize="22dp"
+               android:textStyle="bold"/>
+
+       </androidx.cardview.widget.CardView>
+
+
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".learncalendar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALENDAR"
+                android:textColor="#1565c0"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:text="We are supposed to find the day of the week on a given date.\nFor this, we use the concept of ODD DAYS."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odd Days :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                In a given period, the number of days more than the complete weeks are called odd days."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leap Years :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="1. Every year divisible by 4  is a leap year, if it is not a century.\n2. Every 4th century is a leap year and no other century is a leap year."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="     A leap year has 366 days."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordinary Years :"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="                The year which is not a leap year is called an Ordinary year. An Ordinary year has 365 days."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Counting of Odd Days :"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="6dp"
+            android:textColor="#1565c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:text="1. 1 ordinary year = 365 days = (52 weeks + 1 day).\n     1 ordinary year has 1 odd day.\n2. 1 leap year = 366 days = (52 weeks + 2 day)\n     1 leap year has 2 odd days.\n3. 100 years = 76 ordinary years + 24 leap years = (76 x 1 + 24 x 2) odd days = 124 odd days."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:text="> Number of Odd days in 100 years = 5.\n> Number of Odd days in 200 years = (5 x 2) = 3 odd days.\n> Number of Odd days in 300 years = (5 x 3) = 1 odd day..\n> Number of Odd days in 400 years = (5 x 4 x + 1) = 0 odd day.\nSimilarly, each one of 800 years, 1200 years, 1600 years, 2000 years etc. has 0 odd day.\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:text="No. of days                  Day\n\n         0                          Sun\n         1                          Mon\n         2                          Tue\n         3                          Wed\n         4                          Thu\n         5                          Fri\n         6                          Sat\n\n"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

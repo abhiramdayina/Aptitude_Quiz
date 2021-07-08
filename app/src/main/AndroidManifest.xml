@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools2="http://schemas.android.com/tools"
+    package="com.example.aptitudeoffline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconpic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".result5"></activity>
+        <activity android:name=".result4" />
+        <activity android:name=".result3" />
+        <activity android:name=".result2" />
+        <activity android:name=".test5" />
+        <activity android:name=".test4" />
+        <activity android:name=".test3" />
+        <activity android:name=".test2" />
+        <activity android:name=".test1" />
+        <activity android:name=".test" />
+        <activity android:name=".result" />
+        <activity
+            android:name=".practicetime"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceprofit"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicetrains"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceclocks"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceanalogy"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicedirections"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicecalendar"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceblood"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicepercentages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceroots"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceprobability"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicedecimals"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceratios"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicecoding"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicepartner"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practiceaverages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".complete"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practicenumbers"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learntimeandwork"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnprofitandloss"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learntrains"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnclocks"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnanalogy"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learndirections"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learncalendar"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnblood"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learncoding"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnroots"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnprobability"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learndecimals"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnratios"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnpercentages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnpartnership"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnaverages"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learnnumbers"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".practice"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".learn"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            tools2:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
